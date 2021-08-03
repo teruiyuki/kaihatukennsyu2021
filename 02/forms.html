@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>アンケート</title>
+  </head>
+  <body>
+      <h1>筋トレジム入会フォーム</h1>
+        <form method='get' action='recieve.php'>
+
+        <table border="1" style="border-collapse:collapse;">
+            <tr>
+                <th colspan="1">名前を入力してください</th>
+                <td colspan="1"><input type="text" name="name" size="40" maxlength="10" ></td>
+            </tr>
+
+            <tr>
+                <th colspan="1">・自分の体型は？</th>
+                <td colspan="1"><input type="radio" name="test" checked="checked" value="やせ型" />やせ型<br>
+                    <input type="radio" name="test" value="普通" />普通<br>
+                    <input type="radio" name="test" value="肥満" />肥満<br></td>
+            </tr>
+
+
+            <tr>
+                <th colspan="1">・鍛えたい部位はどこ？</th>
+                <td colspan="1"><input type="checkbox" name="bui[]" value="腹" checked="checked">腹<br>
+                <input type="checkbox" name="bui[]" value="腕">腕<br>
+                <input type="checkbox" name="bui[]" value="足">足</td>
+            </tr>
+
+            <tr>
+                <th colspan="1">・入会期間の目安は？</th>
+                <td colspan="1">
+                <select name="kikan">
+                    <option value="1ヵ月" selected="selected">1ヵ月</option>
+                    <option value="3ヵ月">3ヵ月</option>
+                    <option value="半年">半年</option>
+                    <option value="1年">1年</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <th colspan="1">質問などあればこちらにお願いします</th>
+                <td colspan="1"><textarea name="kanso" rows="3" cols="40"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:right;"><input type="submit" value="送信する">
+                <input type="reset" value="リセット"></td>
+            </tr>
+    </form>
+  </body>
+</html>
