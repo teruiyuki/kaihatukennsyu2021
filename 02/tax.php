@@ -3,13 +3,22 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        table{
-            background-color: #cdefff;
-        }
+        <style type="text/css">
+            table{
+                background-color: #cdefff;
+            }
 
-        th{
-            background-color: #00e2cf;
-        }
+            td{
+                border: solid 1px;
+                padding: 5px;
+            }
+
+            th{
+                background-color: #00e2cf;
+                border: solid 1px;
+                padding: 5px
+            }
+        </style>
         <title>消費税計算ページ</title>
     </head>
     <body>
