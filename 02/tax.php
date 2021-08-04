@@ -3,6 +3,13 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
+        table{
+            background-color: #cdefff;
+        }
+
+        th{
+            background-color: #00e2cf;
+        }
         <title>消費税計算ページ</title>
     </head>
     <body>
