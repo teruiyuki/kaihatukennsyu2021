@@ -35,10 +35,10 @@
 
                 for($i=0; $i < $_GET['cols']; $i++){
                     if($i % 2 == 0){
-                        echo "<tr><td $pink>照井</td><td $pink>裕基</td></tr>";
+                        echo "<tr><td" .$pink. ">照井</td><td" .$pink. ">裕基</td></tr>";
                     }
                     else{
-                        echo "<tr><td $orange>わっくん</td><td $orange>れっくん</td></tr>";
+                        echo "<tr><td" .$orange. ">わっくん</td><td" .$orange. ">れっくん</td></tr>";
                     }
                 }
             ?>

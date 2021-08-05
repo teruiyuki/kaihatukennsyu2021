@@ -25,7 +25,7 @@
                 for($i=1; $i <= $_GET['gyou']; $i++){
                     echo "<tr>";
                     for($s=1; $s <= $_GET['retu']; $s++){
-                        echo "<td> $i - $s </td>";
+                        echo "<td>". $i . "-" . $s . "</td>";
                     }
                     echo "</tr>";
                 }
