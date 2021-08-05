@@ -14,8 +14,8 @@
         <h1>ループで表を作る01</h1>
 
         <form method="get" action="loop01.php">
-            <p>表を何個作りますか？</p>
-            <p><input type="text" name="cols"></p>
+            <p>表は何行にしますか？</p>
+            <p><input type="text" name="cols">行の表を生成する</p>
 
             <p>
                 <input type="submit" value="送信する">
