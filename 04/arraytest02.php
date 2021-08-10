@@ -19,25 +19,28 @@
 
             echo "<hr>";
 
-            for($i=0; $i < count($fruit) ; $i++){
-                echo $fruit[$i] . "<br/>";
+
+            $book = array("漫画","小説","自己啓発","勉強","その他");
+
+            for($i=0; $i < count($book) ; $i++){
+                echo $i. "番目の要素は" .$book[$i]. "です<br/>";
             }
 
             echo "<hr>";
 
-            foreach($fruit as $each){
+            foreach($book as $each){
                 echo $each . "<br/>";
             }
 
             echo "<hr>";
 
-            foreach($fruit as $key => $value){
+            foreach($book as $key => $value){
                 echo $key . "番目の要素は" . $value . "です。<br/>";
             }
             // 検索する文字列
-            $needle = "みかん";
+            $needle = "漫画";
 
-            if(in_array($needle, $fruit)) {
+            if(in_array($needle, $book)) {
                 echo $needle . " がfruitの要素の値に存在しています";
             } else {
                 echo $needle . " がfruitの要素の値に存在しません";
