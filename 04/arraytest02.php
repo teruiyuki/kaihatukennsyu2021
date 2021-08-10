@@ -15,7 +15,7 @@
             $fruit[4] = "イチゴ";
             $fruit[5] = "かき";
 
-            "<pre>".var_dump($fruit)."<pre>";
+            "<pre>".echo var_dump($fruit)."<pre>";
 
             echo "<hr>";
 
