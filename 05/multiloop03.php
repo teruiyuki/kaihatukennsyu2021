@@ -58,5 +58,6 @@
                 echo "</tr>";
             }
         ?>
+        </table>
     </body>
 </html>
