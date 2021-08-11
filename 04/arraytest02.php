@@ -15,10 +15,9 @@
             $fruit[4] = "イチゴ";
             $fruit[5] = "かき";
 
-            "<pre>".echo var_dump($fruit)."<pre>";
+            echo "<pre>" .var_dump($fruit) . "<pre>";
 
             echo "<hr>";
-
 
             $book = array("漫画","小説","自己啓発","勉強","その他");
 
